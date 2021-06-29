@@ -89,11 +89,11 @@ header {
   display: flex;
   align-items: center;
 }
-.contact-list-item {
+.contact-list__item {
   display: flex;
   align-items: center;
 }
-.contact-list-item:not(:first-child) {
+.contact-list__item:not(:first-child) {
   margin-left: 30px;
 }
 
@@ -109,7 +109,7 @@ header {
   /* cursor: pointer; */
 }
 
-.list-nav-item:not(:last-child) {
+.list-nav__item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -180,7 +180,7 @@ header {
   text-align: center;
 }
 
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -196,7 +196,7 @@ header {
   margin-bottom: 30px;
 }
 
-.main-button {
+.main__button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -212,8 +212,8 @@ header {
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-button:hover,
-.main-button:focus {
+.main__button:hover,
+.main__button:focus {
   background-color: var(--paragraph-color);
   color: var(--primary-text-color);
   transform: scale(1.1);
@@ -231,17 +231,17 @@ header {
   padding-bottom: 94px;
 }
 
-.about-us {
+.aboutus {
   display: flex;
   justify-content: space-between;
 }
-.about-us-list {
+.aboutus__list {
   font-size: 14px;
   line-height: 1.14;
   margin-bottom: 10px;
 }
 
-.about-us-description {
+.aboutus__description {
   font-size: 14px;
   line-height: 1.71;
   color: var(--paragraph-color);
@@ -249,7 +249,7 @@ header {
 .us-list:not(:last-child) {
   margin-right: 30px;
 }
-.aboutus-items {
+.aboutus__items {
   display: flex;
   justify-content: center;
   /* display: inline-block; */
@@ -264,7 +264,7 @@ header {
   padding-top: 0;
 }
 
-.work-title {
+.work__title {
   font-size: 36px;
   line-height: 1.16;
   color: var(--primary-text-color);
@@ -275,13 +275,13 @@ header {
   margin-right: auto;
   margin-bottom: 50px;
 }
-.work-list-item {
+.worklist__item {
   width: 1170px;
   display: flex;
   justify-content: space-between;
 }
 
-.work-list-item:not(:last-child) {
+.worklist__item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -289,7 +289,7 @@ header {
   background: #f5f4fa;
 }
 
-.our-team-title {
+.team__title {
   font-size: 36px;
   line-height: 1.16;
   color: var(--primary-text-color);
@@ -299,7 +299,7 @@ header {
   margin-bottom: 50px;
 }
 
-.team-names {
+.team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
@@ -309,7 +309,7 @@ header {
   margin-bottom: 10px;
 }
 
-.team-position {
+.team__position {
   font-size: 16px;
   line-height: 1.9;
   color: var(--paragraph-color);
@@ -318,12 +318,12 @@ header {
   margin-bottom: 16px;
 }
 
-.team-list-item {
+.team__item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-list-item:not(:last-child) {
+.team__item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -333,12 +333,12 @@ header {
   background-color: var(--general-accent-color);
   border-radius: 0px 0px 4px 4px;
 }
-.social-media {
+.social {
   display: flex;
   justify-content: center;
 }
 
-.social-box {
+.social__box {
   display: flex;
   justify-content: center;
   /* width: 44px;
@@ -350,8 +350,8 @@ header {
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-box:hover,
-.social-box:focus {
+.social__box:hover,
+.social__box:focus {
   background-color: var(--color-of-reaction);
 
   cursor: pointer;
@@ -360,7 +360,7 @@ header {
   /* transition-property: background-color, fill; */
 }
 
-.social-box:not(:last-child) {
+.social__box:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -906,7 +906,7 @@ header {
 
 /* оформление оверлея на картах первой страницы  */
 
-.work-trumb {
+.work__trumb {
   position: relative;
   overflow: hidden;
 }
@@ -919,7 +919,7 @@ header {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.work-overlay-desc {
+.work-overlay__description {
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
