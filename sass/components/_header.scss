@@ -48,18 +48,18 @@ header {
   fill: currentColor;
 }
 
-.list-nav__item:not(:last-child) {
+.navList__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.nav-due-site {
+.navList__item--due {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
   color: $primary-text-color;
 }
-.nav-current {
+.navList__item--current {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
@@ -78,7 +78,7 @@ header {
   }
 }
 
-.link {
+.contact-list__link {
   color: $paragraph-color;
   font-weight: 500;
   font-size: 14px;

@@ -125,11 +125,11 @@ header {
   fill: currentColor;
 }
 
-.list-nav__item:not(:last-child) {
+.navList__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.nav-due-site {
+.navList__item--due {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
@@ -137,7 +137,7 @@ header {
   color: #212121;
 }
 
-.nav-current {
+.navList__item--current {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
@@ -157,7 +157,7 @@ header {
           transform: scale(0.9);
 }
 
-.link {
+.contact-list__link {
   color: #757575;
   font-weight: 500;
   font-size: 14px;
@@ -175,7 +175,7 @@ header {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link:hover, .link:focus {
+.contact-list__link:hover, .contact-list__link:focus {
   color: #2196f3;
   fill: #2196f3;
   -webkit-transform: scale(1.1);
@@ -211,7 +211,7 @@ header {
   margin-bottom: 30px;
 }
 
-.main__button {
+.hero__button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -227,7 +227,7 @@ header {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.main__button:hover, .main__button:focus {
+.hero__button:hover, .hero__button:focus {
   background-color: #757575;
   color: #212121;
   -webkit-transform: scale(1.1);
@@ -280,7 +280,7 @@ header {
           transform: scale(1.1);
 }
 
-.hide {
+.aboutus__title--hide {
   display: none;
 }
 
@@ -550,7 +550,7 @@ header {
   display: block;
 }
 
-.add-list-item:not(:last-child) {
+.add-list__item:not(:last-child) {
   margin-bottom: 10px;
 }
 
@@ -888,7 +888,6 @@ header {
 }
 
 .modal__form {
-  position: relative;
   padding: 40px;
 }
 
@@ -1053,7 +1052,7 @@ header {
           transform: translateY(0);
 }
 
-.list-nav__item {
+.navList__item {
   position: relative;
   padding-top: 31px;
   padding-bottom: 31px;
@@ -1064,7 +1063,7 @@ header {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-current::after {
+.navList__item--current::after {
   content: "";
   position: absolute;
   bottom: 0;

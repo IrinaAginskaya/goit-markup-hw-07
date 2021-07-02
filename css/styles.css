@@ -222,7 +222,7 @@ header {
 
 /* Основная страница описание деятельности */
 
-.hide {
+.aboutus__title--hide {
   display: none;
 }
 

@@ -1,4 +1,4 @@
-.list-nav__item {
+.navList__item {
   position: relative;
   padding-top: 31px;
   padding-bottom: 31px;
@@ -6,7 +6,7 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-current::after {
+.navList__item--current::after {
   content: '';
   position: absolute;
   bottom: 0;
